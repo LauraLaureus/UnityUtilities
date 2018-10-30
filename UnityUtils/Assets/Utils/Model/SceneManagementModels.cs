@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 namespace LaureusUtils.SceneManagement
-{
-
+{   
     public class ActionOnSceneLoaded
     {
         public string ActionName { get; set; } //PK 

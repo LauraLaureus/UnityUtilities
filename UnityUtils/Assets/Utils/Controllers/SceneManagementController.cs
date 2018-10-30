@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace LaureusUtils.SceneManagement
-{
-
+{   
     public class SceneManagementController {
 
         #region private members
@@ -41,7 +38,6 @@ namespace LaureusUtils.SceneManagement
                 registerNewActionOnSceneLoad(action);
             }
         }
-
         
         /// <summary>
         /// Load asynchronous scene by name
@@ -114,8 +110,7 @@ namespace LaureusUtils.SceneManagement
                 actionsOnLoad.Remove(removable);
             }
         }
-        #endregion
-
+        #endregion      
     }
 }
 
